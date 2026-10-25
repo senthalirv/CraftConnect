@@ -1,36 +1,35 @@
-# CraftConnect — Final Frontend Prototype
+# CraftConnect
 
-A clickable, frontend-only prototype for the CraftConnect human-powered creative commission marketplace. The existing Figma visual direction is preserved.
+CraftConnect is an online commission-based marketplace that connects talented individuals with people looking for creative services. It aims to help students and creators showcase their skills, connect with potential clients, and earn through their work.
 
-## Run locally
+## Overview
 
-Requirements: Node.js 20.19+ or 22.12+ and npm.
+CraftConnect provides a platform where users can discover creative talent, explore services, and connect with creators for personalized commissions. The goal is to make creative opportunities more accessible, especially for students looking to earn through their skills.
 
-1. Open this folder in VS Code.
-2. Open **Terminal → New Terminal**.
-3. Run:
+## Key Features
 
-   ```bash
-   npm install
-   npm run dev
-   ```
+- **Creator Profiles:** Showcase skills, interests, and creative work.
+- **Service Discovery:** Explore creative services offered by different creators.
+- **Commission Requests:** Connect with creators to request personalized work.
+- **Student Opportunities:** Help students turn their talents into earning opportunities.
+- **Creator–Client Connection:** Bring people looking for creative services together with talented individuals.
 
-4. Open the localhost URL printed in the terminal (usually `http://localhost:5173`).
+## Purpose
 
-## Prototype features
+CraftConnect aims to create a community-driven platform that values human creativity and provides individuals with opportunities to share their talents and earn through their skills.
 
-- Landing page and creator discovery with search, category filters, and sorting
-- Creator profile pages, portfolio samples, save creator, and commission request form
-- Commission requests saved locally, project workspace, and demo status transitions: pending → accepted → in progress → delivered (or declined)
-- Job board with search, category/budget filters, human-made filter, job posting, and saved jobs
-- Proposal submission, proposal list, proposed price and delivery estimate
-- Creator studio with locally saved service packages and portfolio entries
-- Messages with locally saved demo conversations
-- Reviews with selectable star rating and locally saved review entries
-- Editable profile settings
-- Notifications and Human-Made Policy pages
-- Browser local storage for prototype data; data survives refresh in the same browser profile
+## Project Status
 
-## Important limitations
+Currently under development.
 
-This is a prototype, not a production marketplace. There is no backend, real authentication, cross-device account, real file upload, payment processing, or actual external messaging. Demo data is stored in your browser's local storage and is not shared with another user or device. Use the app's browser storage controls if you want to reset the demo data.
+## Future Scope
+
+- Secure user authentication
+- Commission and order management
+- Integrated payment system
+- Ratings and reviews
+- Real-time communication between creators and clients
+
+## License
+
+This project is currently being developed as an independent project.
